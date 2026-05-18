@@ -1,0 +1,1 @@
+uv run jupyter-book build book/

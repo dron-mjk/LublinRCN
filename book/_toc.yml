@@ -1,0 +1,17 @@
+format: jb-book
+root: intro
+chapters:
+  - file: chapters/00_literatura
+    title: "0. Przegląd literatury"
+  - file: chapters/01_download_data
+    title: "1. Pobieranie danych"
+  - file: chapters/03_preprocess_data
+    title: "2. Preprocessing"
+  - file: chapters/02_clean_data
+    title: "3. Czyszczenie danych"
+  - file: chapters/04_eda
+    title: "4. EDA"
+  - file: chapters/05_train_models
+    title: "5. Trenowanie modeli"
+  - file: chapters/06_model_explainability
+    title: "6. Wyjaśnialność modelu (SHAP i LIME)"

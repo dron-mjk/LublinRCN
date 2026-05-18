@@ -8,6 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Jupyter Book
+book/_build/
+.jupyter_cache/
 *.gml
 *.xsd
 *.gfs
+*.parquet
+artifacts/
