@@ -1,6 +1,6 @@
 # LublinRCN
 
-Projekt do analizy danych i budowy modeli regresyjnych (scikit-learn/XGBoost) dla danych przestrzennych z Rejestru Cen Mieszkań.
+Projekt polegający na analizie danych i budowie modeli regresyjnych dla danych przestrzennych z Rejestru Cen Mieszkań z 2025/2026 roku.
 
 ## Zarys projektu
 - `download_data.ipynb` - pobranie danych.
@@ -10,15 +10,20 @@ Projekt do analizy danych i budowy modeli regresyjnych (scikit-learn/XGBoost) dl
 - `train_models.ipynb` - trenowanie i ocena modeli.
 - `model_explainability.ipynb` - SHAP/LIME dla interpretowalnosci.
 
-## Szybki start
+## Wymagania
+- Python `>=3.12`
+- `uv` (zarzadzanie srodowiskiem i zaleznosciami): [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)
+
+
+## Instalacja zależności
 ```bash
 uv sync
-uv run jupyter lab
 ```
 
-## Build dokumentacji
+## Budowanie plików html z dokumentacją
 ```bash
+uv sync --dev
 uv run jupyter-book build book/
 ```
 
-Material teoretyczny i szerszy opis znajduja sie w ksiazce projektu (`book/`).
+Material teoretyczny i szerszy opis znajduja sie w notatnikach
