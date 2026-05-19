@@ -15,3 +15,5 @@ chapters:
     title: "5. Trenowanie modeli"
   - file: chapters/06_model_explainability
     title: "6. Wyjaśnialność modelu (SHAP i LIME)"
+  - file: chapters/07_conclusion
+    title: "7. Wnioski końcowe"
