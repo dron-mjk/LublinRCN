@@ -1,6 +1,6 @@
 # LublinRCN
 
-Projekt polegający na analizie danych i budowie modeli regresyjnych dla danych przestrzennych z Rejestru Cen Mieszkań z 2025/2026 roku.
+Projekt polegający na analizie danych i budowie modeli regresyjnych dla danych przestrzennych z Rejestru Cen Mieszkań w Lublinie z 2025/2026 roku.
 
 ## Zarys projektu
 - `download_data.ipynb` - pobranie danych.
@@ -9,6 +9,9 @@ Projekt polegający na analizie danych i budowie modeli regresyjnych dla danych 
 - `eda.ipynb` - eksploracja i selekcja cech.
 - `train_models.ipynb` - trenowanie i ocena modeli.
 - `model_explainability.ipynb` - SHAP/LIME dla interpretowalnosci.
+
+## Dokumentacja projektu
+[Link do github pages](https://dron-mjk.github.io/LublinRCN/intro.html)
 
 ## Wymagania
 - Python `>=3.12`
